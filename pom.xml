@@ -20,6 +20,10 @@
     </properties>
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
@@ -46,13 +50,8 @@
     </dependencies>
 
     <modules>
-        <module>bot-common-service-exception</module>
-        <module>bot-common-service-security</module>
-        <module>bot-common-service-test</module>
-        <module>bot-common-service-log</module>
-        <module>bot-api-service</module>
-        <module>bot-api-shared</module>
-        <module>bot-api-database</module>
+
+
     </modules>
 
 </project>
